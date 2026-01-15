@@ -4,7 +4,18 @@
     "strict": true,
     "baseUrl": ".",
     "paths": {
-      "@/*": ["src/*"]
+      "@/*": [
+        "./*"
+      ],
+      "tamagui-config": [
+        "./tamagui.config.ts"
+      ]
     }
-  }
+  },
+  "include": [
+    "**/*.ts",
+    "**/*.tsx",
+    "tamagui-env.d.ts",
+    "nativewind-env.d.ts"
+  ]
 }

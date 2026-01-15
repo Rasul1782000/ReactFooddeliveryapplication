@@ -11,7 +11,11 @@ npm-debug.*
 web-build/
 
 
-
+# API Keys and Secrets
+.env
+.env.local
+.env.development
+.env.production
 
 ios
 android
